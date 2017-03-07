@@ -1,0 +1,28 @@
+object Form1: TForm1
+  Left = 30
+  Height = 556
+  Top = 33
+  Width = 610
+  Caption = 'Form1'
+  ClientHeight = 556
+  ClientWidth = 610
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.7'
+  object Image1: TImage
+    Left = 0
+    Height = 556
+    Top = 0
+    Width = 610
+    Align = alClient
+    Proportional = True
+    Stretch = True
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = Timer1Timer
+    left = 141
+    top = 107
+  end
+end
